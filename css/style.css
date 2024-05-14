@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    width: 700px;
+    margin: auto;
+}
+
+h1{
+    color: bisque;
+}
+
+#principal{
+    background-color: brown;
+}
+
+.contenedor{
+    width: 690px;
+    border: 1px solid beige;
+    margin-top: 15px;
+    display: flex;
+}
+
+.contenedor>div>img{
+    background-color: black;
+    color: bisque;
+    width: 120px;
+    height: 90px;
+    font-size: 2em;
+    margin: 4px;
+}
+
+
+#caja1{flex-direction: row;}
+#caja1>div{background-color: blanchedalmond;}
+
+#caja2{ flex-direction: row-reverse;}
+#caja2>div{background-color: blueviolet;}
+
+#caja3{width: 130px; ;flex-direction:column;}
+#caja3>div{background-color: rgb(0, 255, 34);}
+
+#caja4{width: 130px; flex-direction: column-reverse;}
+#caja4>div{background-color: rgb(255, 251, 251);}
+
+#caja5{width: 200px; flex-wrap: wrap;}
+#caja5>div{background-color: rgb(195, 0, 255);}
+
+#caja6{flex-wrap: nowrap;}
+#caja6>div{background-color: rgb(0, 110, 255);}
+
+#caja7{width: 200px; flex-wrap: wrap-reverse;}
+#caja7>div{background-color: blanchedalmond;}
+
+#caja8{ justify-content: flex-start;}
+#caja8>div{background-color: blueviolet;}
+
+#caja9{justify-content: flex-end;}
+#caja9>div{background-color: rgb(0, 255, 34);}
+
+#caja10{justify-content: center;}
+#caja10>div{background-color: rgb(255, 251, 251);}
+
+#caja11{justify-content: space-between;}
+#caj11>div{background-color: rgb(195, 0, 255);}
+
+#caja12{justify-content: space-around;}
+#caja12>div{background-color: rgb(0, 110, 255);}
+
+#caja13{justify-content: space-around;}
+#caja13>div{background-color: rgb(160, 160, 160);}
